@@ -13,6 +13,11 @@ from unittest import mock
 import numpy as np
 import tensorflow as tf
 
+from distutils.version import LooseVersion
+if LooseVersion(tf.__version__) > LooseVersion('2.0'):
+    import tensorflow.compat.v1 as tf
+    tf.disable_v2_behavior()
+    print("import TF compat.v1")
 
 def test_safe(func):
     """
