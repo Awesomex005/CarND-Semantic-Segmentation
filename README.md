@@ -1,3 +1,30 @@
+# Test result/Inference Examples
+It was fascinating to see how the segmentation improve when we increasing the trainning epoches.
+### 6 epoches
+![uu37_06](runs/epoch_06/uu_000037.png)
+![uu14_06](runs/epoch_06/uu_000014.png)
+![uu24_06](runs/epoch_06/uu_000024.png)
+![uu58_06](runs/epoch_06/uu_000058.png)
+![umm93_06](runs/epoch_06/umm_000093.png)
+![um15_06](runs/epoch_06/um_000015.png)
+![um07_06](runs/epoch_06/um_000007.png)
+### 12 epoches
+![uu37_12](runs/epoch_12/uu_000037.png)
+![uu14_12](runs/epoch_12/uu_000014.png)
+![uu24_12](runs/epoch_12/uu_000024.png)
+![uu58_12](runs/epoch_12/uu_000058.png)
+![umm93_12](runs/epoch_12/umm_000093.png)
+![um15_12](runs/epoch_12/um_000015.png)
+![um07_12](runs/epoch_12/um_000007.png)
+### 64 epoches
+![uu37_64](runs/epoch_64/uu_000037.png)
+![uu14_64](runs/epoch_64/uu_000014.png)
+![uu24_64](runs/epoch_64/uu_000024.png)
+![uu58_64](runs/epoch_64/uu_000058.png)
+![umm93_64](runs/epoch_64/umm_000093.png)
+![um15_64](runs/epoch_64/um_000015.png)
+![um07_64](runs/epoch_64/um_000007.png)
+
 # Semantic Segmentation
 ### Introduction
 In this project, you'll label the pixels of a road in images using a Fully Convolutional Network (FCN).
