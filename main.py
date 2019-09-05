@@ -226,7 +226,7 @@ def run():
         layer_output = layers(layer3_out, layer4_out, layer7_out, num_classes)
         logits, train_op, cross_entropy_loss = optimize(layer_output, correct_label, learning_rate, num_classes)
 
-        epochs = 6 #6 12 24 48
+        epochs = 64 #6 12 24 48
         batch_size = 4 #6 12
 
         #saver = tf.train.Saver()
